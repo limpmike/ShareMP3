@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         //for clearing files in cache
-        File[] files = cacheDir.listFiles();
+        File[] files = customCacheFolder.listFiles();
         if(files!=null){
             for (File file:files) {
                 //delete file from custom cache folder
